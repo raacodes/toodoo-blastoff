@@ -1,0 +1,182 @@
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 30% 300% 200%;
+    grid-template-areas: 
+    "a a a"
+    "b b e"
+    "c d e";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.a{
+    grid-area: a;
+    background: #a7f;
+    
+}
+.b{
+    grid-area: b;
+    background: #ada;
+}
+.c{
+    grid-area: c;
+    background: #fa4;
+}
+.d{
+    grid-area: d;
+    background: #f2a;
+}
+.e{
+    grid-area: e;
+    background: #f35;
+}
+
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li-menu{
+    list-style-type: none;
+    display: block;
+    float: left;
+    padding: 10px;
+}
+.li-menu:last-child{
+    float: right;
+}
+
+.video1{
+    border: 1px solid black;
+    margin: 10px;
+    width: 70%;
+    height: 20%;
+    position: relative;
+    left: 20px;
+}
+
+.video2{
+    border: 1px solid black;
+    margin: 10px;
+    width: 70%;
+    height: 20%;
+    position: relative;
+    left: 20px;
+}
+.video3{
+    border: 1px solid black;
+    margin: 10px;
+    width: 70%;
+    height: 20%;
+    position: relative;
+    left: 20px;
+}
+
+.e{
+    display: column ;
+}
+
+.principal{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 80%;
+}
+
+.proximos{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 70%;
+}
+.proximo{
+    font-size: 15px;
+}
+
+.legais{
+    font-size: 20px;
+    margin-bottom: 0%;
+    margin: 1px;
+}
+
+.sugeridos{
+    font-size: 15px;
+}
+
+
+
+@media only screen and (max-width:650px){
+
+    .container{
+    grid-template-columns: 20% 30% 20%;
+    grid-template-rows: 20% 150% 100% 100%;
+    grid-template-areas: 
+    "a a a a "
+    "b b b b"
+    "c c d d"
+    "e e e e";
+    }
+
+    .menu{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .li-menu{
+        list-style-type: none;
+        display: block;
+        float: left;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .li-menu:last-child{
+        float: right;
+    }
+
+    .video1{
+        border: 1px solid black;
+        width: 25%;
+        height: 70%;
+    }
+
+    .video2{
+        border: 1px solid black;
+        width: 25%;
+        height: 70%;
+    }
+    .video3{
+        border: 1px solid black;
+        width: 25%;
+        height: 70%;
+    }
+
+    .e{
+        display: flex;
+    }
+
+    .principal{
+        border: 1px solid black;
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        height: 80%;
+    }
+
+    .proximos{
+        border: 1px solid black;
+        margin: auto;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+    .sugeridos{
+        display:none
+    }
+}
