@@ -9,8 +9,8 @@ precisa ter nenhum conteúdo.
     <head>
         <meta charset="UTF-8">
         <title>QUESTÃO 1</title>
+    </head>
         <body>
         </body>
-    </head>
 </html>
 ```
