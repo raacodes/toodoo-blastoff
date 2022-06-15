@@ -1,0 +1,12 @@
+li.list-item {
+    color: red;
+    }
+    .list-item {
+    color: blue
+    }
+    #list .list-item {
+    color: green
+    }
+    ul li {
+    color: black;
+    }
